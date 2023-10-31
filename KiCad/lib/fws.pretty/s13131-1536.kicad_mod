@@ -6,7 +6,7 @@
   (property "Value" "s13131-1536" (at 0 5.08 0 unlocked) (layer "F.Fab") (tstamp 4260ec5a-68c1-4a9e-84e5-2bf85342ec57)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (property "Footprint" "" (at 0 0 0 unlocked) (layer "F.Fab") hide (tstamp 11de615b-28e4-4138-ac31-cee3bf670928)
+  (property "Footprint" "FWS:s13131-1536" (at 0 0 0 unlocked) (layer "F.Fab") hide (tstamp 11de615b-28e4-4138-ac31-cee3bf670928)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (property "Datasheet" "" (at 0 0 0 unlocked) (layer "F.Fab") hide (tstamp bd604e27-52d5-4838-bdcc-0c80386b2d9b)
