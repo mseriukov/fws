@@ -52,7 +52,7 @@ static void echo_serial_port(uint8_t itf, uint8_t buf[], uint32_t count)
 static void cdc_task(void)
 {
   uint8_t itf;
-  static uint8_t buftest[256] = "\33[2K\r0123456789012345";
+  static uint8_t buftest[256];
 
   for (itf = 0; itf < CFG_TUD_CDC; itf++)
   {
@@ -69,6 +69,9 @@ static void cdc_task(void)
         // echo back to both serial ports
         echo_serial_port(0, buf, count);
       }
+
+      sprintf(buftest, "\33[2K\r%d", board_millis());
+
       echo_serial_port(0, buftest, sizeof(buftest) / sizeof(buftest[0]));
     }
   }
