@@ -5,74 +5,35 @@
 
 #include "bsp/board.h"
 #include "tusb.h"
+#include "pico/cyw43_arch.h"
 
-//------------- prototypes -------------//
 static void cdc_task(void);
 
-/*------------- MAIN -------------*/
-int main(void)
-{
-  board_init();
-  tud_init(BOARD_TUD_RHPORT);
+int main(void) {
+    board_init();
+    if (cyw43_arch_init()) {
+        printf("Wi-Fi init failed");
+        return -1;
+    }
+    tud_init(BOARD_TUD_RHPORT);
 
-  while (1)
-  {
-    tud_task(); // tinyusb device task
-    cdc_task();
-  }
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
+
+    while (1) {
+        tud_task(); // tinyusb device task
+        cdc_task();
+    }
 }
 
-// echo to either Serial0 or Serial1
-// with Serial0 as all lower case, Serial1 as all upper case
-static void echo_serial_port(uint8_t itf, uint8_t buf[], uint32_t count)
-{
-  uint8_t const case_diff = 'a' - 'A';
-
-  for(uint32_t i=0; i<count; i++)
-  {
-    if (itf == 0)
-    {
-      // echo back 1st port as lower case
-      if (isupper(buf[i])) buf[i] += case_diff;
+static void echo_serial_port(uint8_t itf, uint8_t buf[], uint32_t count) {
+    for(uint32_t i=0; i<count; i++) {
+        tud_cdc_n_write_char(itf, buf[i]);
     }
-    else
-    {
-      // echo back 2nd port as upper case
-      if (islower(buf[i])) buf[i] -= case_diff;
-    }
-
-    tud_cdc_n_write_char(itf, buf[i]);
-  }
-  tud_cdc_n_write_flush(itf);
+    tud_cdc_n_write_flush(itf);
 }
 
-//--------------------------------------------------------------------+
-// USB CDC
-//--------------------------------------------------------------------+
-static void cdc_task(void)
-{
-  uint8_t itf;
-  static uint8_t buftest[256];
-
-  for (itf = 0; itf < CFG_TUD_CDC; itf++)
-  {
-    // connected() check for DTR bit
-    // Most but not all terminal client set this when making connection
-    // if ( tud_cdc_n_connected(itf) )
-    {
-      if ( tud_cdc_n_available(itf) )
-      {
-        uint8_t buf[64];
-
-        uint32_t count = tud_cdc_n_read(itf, buf, sizeof(buf));
-
-        // echo back to both serial ports
-        echo_serial_port(0, buf, count);
-      }
-
-      sprintf(buftest, "\33[2K\r%d", board_millis());
-
-      echo_serial_port(0, buftest, sizeof(buftest) / sizeof(buftest[0]));
-    }
-  }
+static void cdc_task(void) {
+    static uint8_t buf[256];
+    sprintf(buf, "\33[2K\r%d", board_millis());
+    echo_serial_port(0, buf, sizeof(buf) / sizeof(buf[0]));
 }

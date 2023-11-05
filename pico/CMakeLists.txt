@@ -15,17 +15,20 @@ pico_sdk_init()
 add_executable(fws_pico
 	main.c
 	usb_descriptors.c
-	)
+)
 
-target_include_directories(fws_pico PUBLIC
-    ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(fws_pico 
+	PUBLIC
+    ${CMAKE_CURRENT_LIST_DIR}
+)
 
 # Pull in our pico_stdlib...
-target_link_libraries(fws_pico pico_stdlib tinyusb_device tinyusb_board)
-
-pico_set_binary_type(fws_pico no_flash)
-
-pico_enable_stdio_usb(fws_pico 1)
+target_link_libraries(fws_pico 
+	pico_stdlib 
+	tinyusb_device 
+	tinyusb_board 
+	pico_cyw43_arch_none
+)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(fws_pico)
