@@ -10,6 +10,7 @@
 		670DD7A02AF821C400F1B1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670DD79F2AF821C400F1B1CC /* AppDelegate.swift */; };
 		670DD7A22AF821C900F1B1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670DD7A12AF821C900F1B1CC /* Assets.xcassets */; };
 		670DD7A52AF821C900F1B1CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 670DD7A32AF821C900F1B1CC /* MainMenu.xib */; };
+		670DD7AD2AFACF8600F1B1CC /* Serial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670DD7AC2AFACF8600F1B1CC /* Serial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		670DD7A12AF821C900F1B1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		670DD7A42AF821C900F1B1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		670DD7A62AF821C900F1B1CC /* FWS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FWS.entitlements; sourceTree = "<group>"; };
+		670DD7AC2AFACF8600F1B1CC /* Serial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				670DD79F2AF821C400F1B1CC /* AppDelegate.swift */,
+				670DD7AC2AFACF8600F1B1CC /* Serial.swift */,
 				670DD7A12AF821C900F1B1CC /* Assets.xcassets */,
 				670DD7A32AF821C900F1B1CC /* MainMenu.xib */,
 				670DD7A62AF821C900F1B1CC /* FWS.entitlements */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				670DD7A02AF821C400F1B1CC /* AppDelegate.swift in Sources */,
+				670DD7AD2AFACF8600F1B1CC /* Serial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
