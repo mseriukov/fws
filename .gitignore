@@ -54,9 +54,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# VSCodeignores provided by github/gitignore
-.vscode/*
-
 # Local History for Visual Studio Code
 .history/
 

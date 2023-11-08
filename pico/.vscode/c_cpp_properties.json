@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/zsp/dev/pico/pico-sdk/**",
+                "/Users/zsp/dev/pico/pico-sdk/lib/tinyusb/**"            
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
