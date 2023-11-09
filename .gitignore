@@ -63,6 +63,5 @@ fp-info-cache
 
 # Pico SDK stuff 
 .idea
-.vscode
 cmake-*
 build
