@@ -182,7 +182,7 @@
 
   (footprint "FWS:s13131-1536" (layer "F.Cu")
     (tstamp 9f1edf36-ea58-4435-a2cc-996b82caddd6)
-    (at 43.18 55.88)
+    (at 47.3 55.88)
     (property "Reference" "S1" (at 0 -5.08 0 unlocked) (layer "F.SilkS") (tstamp f1c0bad2-dfea-4f46-babd-e97598be6edf)
       (effects (font (size 1 1) (thickness 0.1)))
     )
@@ -242,7 +242,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp ce1450b5-d0f6-40e7-8fa9-d9cc2b49438c)
-    (at 43.05 60.5)
+    (at 47.05 61)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Reference" "C1" (at 0 -1.68 0) (layer "F.SilkS") (tstamp 72e76b8b-99c7-444d-9826-100f02d80d26)
