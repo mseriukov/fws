@@ -580,7 +580,7 @@
   (symbol (lib_id "FWS:C") (at 100.33 67.31 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 05f012fc-48a8-479e-aeb5-dd4b311f21a7)
-    (property "Reference" "C?" (at 100.965 64.77 0)
+    (property "Reference" "C2" (at 100.965 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 100.965 69.85 0)
@@ -600,7 +600,7 @@
     (instances
       (project "s13131_breakout"
         (path "/9b830ee6-51b1-4891-8c58-db3625e8ab27"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -637,13 +637,13 @@
   (symbol (lib_id "FWS:C_Polarized") (at 107.95 67.31 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4621de83-13f0-4205-9efb-8fa9363927f7)
-    (property "Reference" "C?" (at 108.585 64.77 0)
+    (property "Reference" "C3" (at 108.585 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u 25v" (at 108.585 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 108.9152 71.12 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4" (at 108.9152 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 67.31 0)
@@ -657,7 +657,7 @@
     (instances
       (project "s13131_breakout"
         (path "/9b830ee6-51b1-4891-8c58-db3625e8ab27"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
