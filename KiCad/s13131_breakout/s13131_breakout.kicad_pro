@@ -459,7 +459,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "s13131_breakout.net",
-      "plot": "",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
