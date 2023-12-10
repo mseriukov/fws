@@ -556,7 +556,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tstamp bf23d0d0-58aa-41fe-bba9-ca3fc9035ea4)
-    (at 71.32 50.99)
+    (at 42.0375 59.95)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Reference" "U1" (at 0 -2.4 0) (layer "F.SilkS") (tstamp a174a153-1a4b-49f2-b996-45057ed97210)
@@ -636,7 +636,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tstamp c9588851-17d4-483b-aecc-3bdf4d3e82c2)
-    (at 82.77 45.72)
+    (at 41.05 66.5)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Reference" "D1" (at 0 -1.85 0) (layer "F.SilkS") (tstamp 1ee2e002-5031-4676-820b-5ba8b06bc581)
@@ -712,7 +712,7 @@
 
   (footprint "fws:SM03B-SRSS-TB_LF__SN_" (layer "F.Cu")
     (tstamp e99e7aed-d9db-498b-84c3-bb03d93c4f5d)
-    (at 71.36 57.085)
+    (at 67.9 41.3)
     (property "Reference" "J2" (at -0.635 -1.905 0) (layer "F.SilkS") (tstamp 4ad13e13-8ada-4287-81e4-988392520dc1)
       (effects (font (size 1 1) (thickness 0.15)))
     )
