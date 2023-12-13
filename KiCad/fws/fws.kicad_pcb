@@ -148,7 +148,7 @@
 
   (footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (layer "F.Cu")
     (tstamp 6d10a23b-7ed2-4c55-8ffd-0858b65693fa)
-    (at 52.1 52.8)
+    (at 51.8625 58.2)
     (descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
     (property "Reference" "U2" (at 0 -4.82 0) (layer "F.SilkS") (tstamp df701a2a-5f09-4aa0-964e-a877fb0da5c8)
@@ -712,7 +712,7 @@
 
   (footprint "fws:SM03B-SRSS-TB_LF__SN_" (layer "F.Cu")
     (tstamp e99e7aed-d9db-498b-84c3-bb03d93c4f5d)
-    (at 67.9 41.3)
+    (at 61.8 59.1)
     (property "Reference" "J2" (at -0.635 -1.905 0) (layer "F.SilkS") (tstamp 4ad13e13-8ada-4287-81e4-988392520dc1)
       (effects (font (size 1 1) (thickness 0.15)))
     )
