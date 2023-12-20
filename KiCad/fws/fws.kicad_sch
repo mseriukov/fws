@@ -2504,7 +2504,7 @@
   (symbol (lib_id "FWS:C") (at 119.38 31.75 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0290b501-3c7a-49a6-a7ed-ed049bff2a26)
-    (property "Reference" "C3" (at 120.015 29.21 0)
+    (property "Reference" "C6" (at 120.015 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 120.015 34.29 0)
@@ -2524,7 +2524,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2533,7 +2533,7 @@
   (symbol (lib_id "FWS:GND") (at 76.2 45.72 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b5e4a13-570b-4c11-948f-b97eca397e94)
-    (property "Reference" "#PWR06" (at 76.2 52.07 0)
+    (property "Reference" "#PWR010" (at 76.2 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 49.53 0)
@@ -2552,7 +2552,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2561,7 +2561,7 @@
   (symbol (lib_id "FWS:GND") (at 130.81 172.72 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b82ec2f-dad1-4ea9-befe-aa465d73afaa)
-    (property "Reference" "#PWR013" (at 130.81 179.07 0)
+    (property "Reference" "#PWR020" (at 130.81 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 176.53 0)
@@ -2580,7 +2580,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2589,7 +2589,7 @@
   (symbol (lib_id "FWS:C") (at 186.69 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d8c6fee-c21c-47c5-b852-4cc3f43c26a3)
-    (property "Reference" "C10" (at 187.325 62.23 0)
+    (property "Reference" "C13" (at 187.325 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 187.325 67.31 0)
@@ -2609,7 +2609,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C10") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2618,7 +2618,7 @@
   (symbol (lib_id "FWS:C") (at 129.54 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f8ee220-09d4-42dd-8bf9-6153fbb85afe)
-    (property "Reference" "C5" (at 130.175 62.23 0)
+    (property "Reference" "C8" (at 130.175 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 130.175 67.31 0)
@@ -2638,7 +2638,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2647,7 +2647,7 @@
   (symbol (lib_id "FWS:+3.3V") (at 53.34 96.52 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 21ec7d9f-bc7c-4e72-a6c9-9ff0ea7d091c)
-    (property "Reference" "#PWR020" (at 53.34 100.33 0)
+    (property "Reference" "#PWR04" (at 53.34 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 53.086 92.456 0)
@@ -2666,7 +2666,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2675,7 +2675,7 @@
   (symbol (lib_id "FWS:C_Polarized") (at 128.27 31.75 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 23d67261-ed99-41ab-87f3-256154b7934a)
-    (property "Reference" "C4" (at 128.905 29.21 0)
+    (property "Reference" "C7" (at 128.905 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 128.905 34.29 0)
@@ -2695,7 +2695,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2704,7 +2704,7 @@
   (symbol (lib_id "FWS:R") (at 127 92.71 270) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2722a685-1ddc-4f29-aac1-863240fca387)
-    (property "Reference" "R3" (at 122.174 91.694 90)
+    (property "Reference" "R6" (at 122.174 91.694 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27R" (at 127 92.71 90)
@@ -2724,7 +2724,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R3") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2733,7 +2733,7 @@
   (symbol (lib_id "FWS:+3.3V") (at 179.07 54.61 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aad7009-ac00-4789-9a8f-f0709c627635)
-    (property "Reference" "#PWR017" (at 179.07 58.42 0)
+    (property "Reference" "#PWR024" (at 179.07 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 179.07 51.054 0)
@@ -2752,7 +2752,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2805,7 +2805,7 @@
   (symbol (lib_id "FWS:GND") (at 119.38 39.37 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ec6920a-1253-4f26-a268-38d4d7568e7d)
-    (property "Reference" "#PWR010" (at 119.38 45.72 0)
+    (property "Reference" "#PWR015" (at 119.38 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 43.18 0)
@@ -2824,7 +2824,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2833,7 +2833,7 @@
   (symbol (lib_id "FWS:R") (at 64.77 38.1 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 33077632-463b-4e71-b5f9-f91409c79a1e)
-    (property "Reference" "R2" (at 66.802 38.1 90)
+    (property "Reference" "R4" (at 66.802 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 64.77 38.1 90)
@@ -2853,7 +2853,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2862,7 +2862,7 @@
   (symbol (lib_id "FWS:R") (at 41.91 102.87 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 35fd8c65-951b-4ca9-a45b-fbab50f7308e)
-    (property "Reference" "R?" (at 43.942 102.87 90)
+    (property "Reference" "R2" (at 43.942 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 41.91 102.87 90)
@@ -2882,7 +2882,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2891,7 +2891,7 @@
   (symbol (lib_id "FWS:RP2040") (at 157.48 123.19 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a0e3b18-deeb-49c6-a2f7-4589d61ab7f2)
-    (property "Reference" "U2" (at 159.6741 167.64 0)
+    (property "Reference" "U3" (at 159.6741 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RP2040" (at 159.6741 170.18 0)
@@ -2966,7 +2966,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2975,7 +2975,7 @@
   (symbol (lib_id "FWS:C") (at 171.45 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c25f773-2cdd-4ad2-b587-dd961ce26bb7)
-    (property "Reference" "C8" (at 172.085 62.23 0)
+    (property "Reference" "C11" (at 172.085 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 172.085 67.31 0)
@@ -2995,7 +2995,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C8") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3004,7 +3004,7 @@
   (symbol (lib_id "FWS:GND") (at 87.63 39.37 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 41a873ee-5904-4ab4-b75b-2d314067d8fc)
-    (property "Reference" "#PWR08" (at 87.63 45.72 0)
+    (property "Reference" "#PWR012" (at 87.63 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 43.18 0)
@@ -3023,7 +3023,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3032,7 +3032,7 @@
   (symbol (lib_id "FWS:D_Laser_Photo_PType") (at 234.95 30.48 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 42dda628-5fa6-40bf-a29f-0fbe8e454e0c)
-    (property "Reference" "LD?" (at 235.966 23.368 0)
+    (property "Reference" "LD1" (at 235.966 23.368 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Laser_Photo_PType" (at 235.966 36.068 0)
@@ -3053,7 +3053,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "LD?") (unit 1)
+          (reference "LD1") (unit 1)
         )
       )
     )
@@ -3062,7 +3062,7 @@
   (symbol (lib_id "FWS:GND") (at 102.87 144.78 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 450322b3-6c97-4bde-a9b4-3cc56dff9bc5)
-    (property "Reference" "#PWR023" (at 102.87 151.13 0)
+    (property "Reference" "#PWR013" (at 102.87 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 148.59 0)
@@ -3081,7 +3081,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3090,7 +3090,7 @@
   (symbol (lib_id "FWS:+3.3V") (at 120.65 81.28 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b6e6b26-ccc8-4cfb-971b-028603415272)
-    (property "Reference" "#PWR024" (at 120.65 85.09 0)
+    (property "Reference" "#PWR017" (at 120.65 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 120.65 77.724 0)
@@ -3109,7 +3109,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3118,7 +3118,7 @@
   (symbol (lib_id "FWS:C") (at 179.07 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5383b2a9-39f0-48a9-9607-84ba00ca77b3)
-    (property "Reference" "C9" (at 179.705 62.23 0)
+    (property "Reference" "C12" (at 179.705 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 179.705 67.31 0)
@@ -3138,7 +3138,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C9") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3147,7 +3147,7 @@
   (symbol (lib_id "FWS:C") (at 137.16 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 56c33156-f2b1-4ec9-a0ad-e4caa9b5a631)
-    (property "Reference" "C6" (at 137.795 62.23 0)
+    (property "Reference" "C9" (at 137.795 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 137.795 67.31 0)
@@ -3167,7 +3167,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C6") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3176,7 +3176,7 @@
   (symbol (lib_id "FWS:C") (at 64.77 102.87 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 594af187-1dbc-49da-afea-0f3a252325da)
-    (property "Reference" "C?" (at 65.405 100.33 0)
+    (property "Reference" "C1" (at 65.405 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 65.405 105.41 0)
@@ -3196,7 +3196,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3205,7 +3205,7 @@
   (symbol (lib_id "FWS:MIC5205-3.3YM5") (at 107.95 27.94 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b5b90de-8678-4728-b696-c258ae8ab891)
-    (property "Reference" "U1" (at 103.378 19.558 0)
+    (property "Reference" "U2" (at 103.378 19.558 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC5205-3.3YM5" (at 100.838 21.844 0)
@@ -3228,7 +3228,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3237,7 +3237,7 @@
   (symbol (lib_id "FWS:S13131") (at 176.53 30.48 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c711967-be13-4eb3-aad2-09feae5cf291)
-    (property "Reference" "S?" (at 173.736 22.86 0)
+    (property "Reference" "S1" (at 173.736 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 176.53 33.02 0)
@@ -3263,7 +3263,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "S?") (unit 1)
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -3300,7 +3300,7 @@
   (symbol (lib_id "FWS:GND") (at 59.69 45.72 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 62488ae7-74d2-4591-82fb-eec52932e3ea)
-    (property "Reference" "#PWR03" (at 59.69 52.07 0)
+    (property "Reference" "#PWR06" (at 59.69 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 49.53 0)
@@ -3319,7 +3319,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3328,7 +3328,7 @@
   (symbol (lib_id "FWS:C") (at 107.95 130.81 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 64de056f-96d0-4c37-a41b-523163606f36)
-    (property "Reference" "C?" (at 105.41 130.175 0)
+    (property "Reference" "C4" (at 105.41 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27pF" (at 114.3 129.54 90)
@@ -3348,7 +3348,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3357,7 +3357,7 @@
   (symbol (lib_id "FWS:Crystal_GND24") (at 119.38 135.89 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 66a97b73-d64d-47f4-bcfc-132080e78114)
-    (property "Reference" "Y?" (at 118.364 127.762 90)
+    (property "Reference" "Y1" (at 118.364 127.762 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12MHz" (at 120.904 125.984 90)
@@ -3379,7 +3379,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "Y?") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -3388,7 +3388,7 @@
   (symbol (lib_id "FWS:GND") (at 128.27 39.37 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c57e23b-41fb-40b4-a0d8-89ed6f911e9b)
-    (property "Reference" "#PWR012" (at 128.27 45.72 0)
+    (property "Reference" "#PWR019" (at 128.27 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 43.18 0)
@@ -3407,7 +3407,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3416,7 +3416,7 @@
   (symbol (lib_id "FWS:GND") (at 137.16 73.66 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 70c96af5-a493-4011-9823-2c9dd90c8350)
-    (property "Reference" "#PWR015" (at 137.16 80.01 0)
+    (property "Reference" "#PWR022" (at 137.16 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 77.47 0)
@@ -3435,7 +3435,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3503,7 +3503,7 @@
   (symbol (lib_id "FWS:C") (at 194.31 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ee1d56e-5933-4bb8-8918-5fd800824dcf)
-    (property "Reference" "C11" (at 194.945 62.23 0)
+    (property "Reference" "C14" (at 194.945 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 194.945 67.31 0)
@@ -3523,7 +3523,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3532,7 +3532,7 @@
   (symbol (lib_id "FWS:C") (at 201.93 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 818d132d-4ec3-4947-850e-dc1984744c9f)
-    (property "Reference" "C12" (at 202.565 62.23 0)
+    (property "Reference" "C15" (at 202.565 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 202.565 67.31 0)
@@ -3552,7 +3552,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3561,7 +3561,7 @@
   (symbol (lib_id "FWS:R") (at 59.69 38.1 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 84049bbf-de3e-44fb-8484-7cfd83d56046)
-    (property "Reference" "R1" (at 61.722 38.1 90)
+    (property "Reference" "R3" (at 61.722 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 59.69 38.1 90)
@@ -3581,7 +3581,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3590,7 +3590,7 @@
   (symbol (lib_id "FWS:VBUS") (at 50.8 24.13 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 88356d21-b713-473f-96d8-f6b4dfcf0759)
-    (property "Reference" "#PWR02" (at 50.8 27.94 0)
+    (property "Reference" "#PWR03" (at 50.8 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 50.8 20.32 0)
@@ -3609,7 +3609,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3618,7 +3618,7 @@
   (symbol (lib_id "FWS:GND") (at 64.77 107.95 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b833507-5b31-4a6a-9556-5f6b04896325)
-    (property "Reference" "#PWR021" (at 64.77 114.3 0)
+    (property "Reference" "#PWR08" (at 64.77 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 111.76 0)
@@ -3637,7 +3637,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3646,7 +3646,7 @@
   (symbol (lib_id "FWS:R") (at 127 85.09 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f83c8e7-116d-4263-b139-c7a4085f4162)
-    (property "Reference" "R?" (at 127 82.804 90)
+    (property "Reference" "R5" (at 127 82.804 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 127 85.09 90)
@@ -3666,7 +3666,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3675,7 +3675,7 @@
   (symbol (lib_id "FWS:GND") (at 107.95 39.37 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 915bf869-1b37-453a-8386-b0165c554f39)
-    (property "Reference" "#PWR09" (at 107.95 45.72 0)
+    (property "Reference" "#PWR014" (at 107.95 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 43.18 0)
@@ -3694,7 +3694,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3703,7 +3703,7 @@
   (symbol (lib_id "FWS:W25Q128JVS") (at 53.34 116.84 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 95436e64-d9db-49c0-827b-9f5a7a69c593)
-    (property "Reference" "U3" (at 46.99 105.41 0)
+    (property "Reference" "U1" (at 46.99 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "W25Q128JVS" (at 59.69 116.84 90)
@@ -3729,7 +3729,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3738,7 +3738,7 @@
   (symbol (lib_id "FWS:C_Polarized") (at 87.63 31.75 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c6a9f9f-2edb-45d6-9a84-36a42de8b038)
-    (property "Reference" "C2" (at 88.265 29.21 0)
+    (property "Reference" "C3" (at 88.265 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 88.265 34.29 0)
@@ -3758,7 +3758,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3767,7 +3767,7 @@
   (symbol (lib_id "FWS:+3.3V") (at 128.27 24.13 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fffe28d-dd45-486a-9374-e8ac9836a202)
-    (property "Reference" "#PWR011" (at 128.27 27.94 0)
+    (property "Reference" "#PWR018" (at 128.27 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 128.016 20.066 0)
@@ -3786,7 +3786,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3824,7 +3824,7 @@
   (symbol (lib_id "FWS:C") (at 76.2 38.1 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ac8d5eba-22c2-4b61-86a9-666c7d53467d)
-    (property "Reference" "C1" (at 76.835 35.56 0)
+    (property "Reference" "C2" (at 76.835 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 76.835 40.64 0)
@@ -3844,7 +3844,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3853,7 +3853,7 @@
   (symbol (lib_id "FWS:+1V1") (at 137.16 54.61 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ae9c5fa5-4f50-4d79-9506-cbc151db51f4)
-    (property "Reference" "#PWR014" (at 137.16 58.42 0)
+    (property "Reference" "#PWR021" (at 137.16 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (at 137.16 51.054 0)
@@ -3872,7 +3872,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3881,7 +3881,7 @@
   (symbol (lib_id "FWS:GND") (at 157.48 172.72 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b66ba26b-4f57-4795-98ed-ad005a115b3a)
-    (property "Reference" "#PWR016" (at 157.48 179.07 0)
+    (property "Reference" "#PWR023" (at 157.48 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 176.53 0)
@@ -3900,7 +3900,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3909,7 +3909,7 @@
   (symbol (lib_id "FWS:R") (at 127 95.25 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c6b8b407-b8ff-4706-8f90-65f6d632f738)
-    (property "Reference" "R4" (at 122.174 94.234 90)
+    (property "Reference" "R7" (at 122.174 94.234 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27R" (at 127 95.25 90)
@@ -3929,7 +3929,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R4") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3938,7 +3938,7 @@
   (symbol (lib_id "FWS:GND") (at 53.34 130.81 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c71d41aa-2805-4f5f-bf7f-c10c7875dbb3)
-    (property "Reference" "#PWR019" (at 53.34 137.16 0)
+    (property "Reference" "#PWR05" (at 53.34 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 134.62 0)
@@ -3957,7 +3957,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3966,7 +3966,7 @@
   (symbol (lib_id "FWS:C") (at 144.78 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c924cf90-871e-4b16-bc07-bc31c94e4709)
-    (property "Reference" "C7" (at 145.415 62.23 0)
+    (property "Reference" "C10" (at 145.415 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 145.415 67.31 0)
@@ -3986,7 +3986,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C7") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3995,7 +3995,7 @@
   (symbol (lib_id "FWS:VSYS") (at 87.63 24.13 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cec2a519-9ee3-4136-bc26-f0c05752f6f4)
-    (property "Reference" "#PWR07" (at 87.63 27.94 0)
+    (property "Reference" "#PWR011" (at 87.63 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 87.63 20.32 0)
@@ -4014,7 +4014,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4023,7 +4023,7 @@
   (symbol (lib_id "FWS:C") (at 217.17 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid dbc1a7f7-1a9a-43d7-9b3a-ce87fdd586b5)
-    (property "Reference" "C14" (at 217.805 62.23 0)
+    (property "Reference" "C17" (at 217.805 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 217.805 67.31 0)
@@ -4043,7 +4043,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C14") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -4052,7 +4052,7 @@
   (symbol (lib_id "FWS:C") (at 209.55 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid de32c9bc-25fe-4dc2-aa30-29e4d063b16b)
-    (property "Reference" "C13" (at 210.185 62.23 0)
+    (property "Reference" "C16" (at 210.185 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 210.185 67.31 0)
@@ -4072,7 +4072,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4081,7 +4081,7 @@
   (symbol (lib_id "FWS:GND") (at 179.07 73.66 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid de911422-e048-46cc-abe3-b39df71890cb)
-    (property "Reference" "#PWR018" (at 179.07 80.01 0)
+    (property "Reference" "#PWR025" (at 179.07 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 77.47 0)
@@ -4100,7 +4100,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4109,7 +4109,7 @@
   (symbol (lib_id "FWS:GND") (at 48.26 168.91 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e455fb7f-d900-4da5-8261-2ad1fa257b02)
-    (property "Reference" "#PWR025" (at 48.26 175.26 0)
+    (property "Reference" "#PWR02" (at 48.26 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 172.72 0)
@@ -4128,7 +4128,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4166,7 +4166,7 @@
   (symbol (lib_id "FWS:GND") (at 119.38 144.78 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e64744d2-67af-4cf0-9e9a-5ac84e2c7421)
-    (property "Reference" "#PWR022" (at 119.38 151.13 0)
+    (property "Reference" "#PWR016" (at 119.38 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 148.59 0)
@@ -4185,7 +4185,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4194,7 +4194,7 @@
   (symbol (lib_id "FWS:GND") (at 64.77 45.72 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e6f3b7ae-65da-45d7-bdff-62c2182bf444)
-    (property "Reference" "#PWR04" (at 64.77 52.07 0)
+    (property "Reference" "#PWR07" (at 64.77 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 49.53 0)
@@ -4213,7 +4213,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4222,7 +4222,7 @@
   (symbol (lib_id "FWS:C") (at 224.79 64.77 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e9e10d76-3e52-46db-abc6-bcf67753a2c2)
-    (property "Reference" "C15" (at 225.425 62.23 0)
+    (property "Reference" "C18" (at 225.425 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 225.425 67.31 0)
@@ -4242,7 +4242,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C15") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4251,7 +4251,7 @@
   (symbol (lib_id "FWS:R") (at 26.67 109.22 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ea327e1e-48c1-4f46-9937-c6975cee9a9e)
-    (property "Reference" "R?" (at 26.67 107.188 90)
+    (property "Reference" "R1" (at 26.67 107.188 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 26.67 109.22 90)
@@ -4271,7 +4271,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4280,7 +4280,7 @@
   (symbol (lib_id "FWS:C") (at 107.95 140.97 90) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid eecb0397-ede5-4b9b-80aa-cc07a99a57d8)
-    (property "Reference" "C?" (at 105.41 140.335 0)
+    (property "Reference" "C5" (at 105.41 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27pF" (at 114.046 139.7 90)
@@ -4300,7 +4300,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4309,7 +4309,7 @@
   (symbol (lib_id "FWS:VSYS") (at 76.2 24.13 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f6de2a23-d49b-42ae-9a36-4ca72451b9f7)
-    (property "Reference" "#PWR05" (at 76.2 27.94 0)
+    (property "Reference" "#PWR09" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 76.2 20.32 0)
@@ -4328,7 +4328,7 @@
     (instances
       (project "fws"
         (path "/1464a0f5-893a-45f7-94f1-a97986ba6c99"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
